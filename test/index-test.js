@@ -1,12 +1,12 @@
 describe("index.html", function() {
 
-    it("displays the correct Titanic info from JSON", () => {
+    // it("displays the correct Titanic info from JSON", () => {
 
-      expect(document.getElementById("title").innerHTML, "Title was not changed on page load").to.equal("Titanic")
-      expect(document.getElementById("director").innerHTML, "Director was not changed on page load").to.equal("James Cameron")
-      expect(document.getElementById("genre").innerHTML, "Genre was not changed on page load").to.equal("Drama")
-      expect(document.getElementById("filmRating").innerHTML, "Film rating was not changed on page load").to.equal("PG-13")
-    });
+    //   expect(document.getElementById("title").innerHTML, "Title was not changed on page load").to.equal("Titanic")
+    //   expect(document.getElementById("director").innerHTML, "Director was not changed on page load").to.equal("James Cameron")
+    //   expect(document.getElementById("genre").innerHTML, "Genre was not changed on page load").to.equal("Drama")
+    //   expect(document.getElementById("filmRating").innerHTML, "Film rating was not changed on page load").to.equal("PG-13")
+    // });
 
 
     it("displays the correct Titanic info from JSON", () => {
